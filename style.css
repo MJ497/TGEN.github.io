@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;500&display=swap');
+
+*{
+    
+    font-family: 'Outfit', sans-serif;
+}
+
+    body {
+   
+    background-color: #3c2973;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tickets{
+    background: #fcdde8;
+    color: #3c2973;
+    margin-top: 10px;
+}
+.tickets p{
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 8px;
+}
+.button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: #3c2973;
+    background: #fcdde8;
+    font-weight: bold;
+    border-radius: 25px;
+    text-decoration: none;
+}
+input{
+    padding: 14px;
+    border: none;
+    border-radius: 24px;
+    outline: none;
+    background: #fcdde86c;
+
+}
+
+
+@media only screen and (max-width:35em) {
+ .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+ }   
+ .button{margin-top: 20px;}
+}
