@@ -13,8 +13,8 @@ function generateTicket() {
     // Save the name and ticket number to local storage
     localStorage.setItem(ticketNumber.toString(), nameInput.value);
 
-    // Display a success message
-    viewTicket.innerHTML = `<p>Ticket generated successfully!<br>Name: ${nameInput.value}<br>Ticket Number: ${ticketNumber}</p>`;
+   // Display a success message
+    alert(`Ticket generated successfully!\nName: ${nameInput.value}\nTicket Number: ${ticketNumber}`);
     
     // Clear the input field
     nameInput.value = '';
