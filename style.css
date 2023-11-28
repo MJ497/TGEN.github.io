@@ -30,11 +30,11 @@
 #ticketList div{
     background: #fcdde8;
     color: #3c2973;
-    margin-top: 10px;
+    margin-top: 2px;
 }
 #ticketList p{
     font-weight: bold;
-    margin-top: 5px;
+    
     padding: 8px;
 }
 .button {
