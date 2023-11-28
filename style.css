@@ -25,12 +25,12 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.tickets{
+#ticketList div{
     background: #fcdde8;
     color: #3c2973;
     margin-top: 10px;
 }
-.tickets p{
+#ticketList p{
     font-weight: bold;
     margin-top: 5px;
     padding: 8px;
